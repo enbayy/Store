@@ -1,0 +1,120 @@
+.headAll {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headText {
+    margin-top: 20px;
+    font-size: 90px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headRow {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.headImage {
+    width: 170px;
+    height: 170px;
+    margin: 20px;
+}
+
+.headImages {
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.video {
+
+    overflow: hidden;
+    margin-bottom: 20px;
+    /* Videolar arasında boşluk bırak */
+    border-radius: 10px;
+    /* Köşeleri yuvarlatmak için */
+    transition: transform 0.5s ease-in-out;
+}
+
+.video {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
+}
+
+.headMid {
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.headButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -60px;
+}
+
+.buttonPr {
+    background: linear-gradient(90deg, #00d5ff, #af03e3);
+    box-shadow: 0 3px 10px 0 white;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #00d5ff, #af03e3);
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+}
+
+.buttonPr:hover {
+    background: linear-gradient(90deg, #00d5ff, #af03e3);
+    box-shadow: 0 5px 10px 0 white;
+}
+
+.buttonPr:active {
+    background-color: white;
+    box-shadow: 0 2px white;
+    transform: translateY(2px);
+}
+
+.headShoe {
+    transform: rotate(30deg);
+    width: 730px;
+    height: 730px;
+    margin-top: -70px;
+    cursor: pointer;
+}
+
+.headShoe:hover {
+    transform: scale(1.2);
+    filter: brightness(1.1);
+    transition: transform 0.7s
+}
+
+.headIcons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -60px;
+}
+
+.icon {
+    font-size: 40px;
+}
