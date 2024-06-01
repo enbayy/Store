@@ -9,6 +9,10 @@ import Contact from './Pages/Contact.jsx'
 import NotFoundPage from './Pages/NotFoundPage.jsx'
 import Head from './components/Head.jsx'
 import Sales from './components/Sales.jsx'
+import Info from './components/Info.jsx'
+import { cards } from './components/Data.jsx'
+import Card from './components/Card.jsx'
+import "./components/Card.css";
 
 function App() {
 
@@ -23,7 +27,15 @@ function App() {
           <Route path='*' element={<NotFoundPage />} />
         </Routes>
         <Head />
-        <Sales/>
+        <Sales />
+        <Info />
+        <div className='card-main'>
+        {
+          cards?.map((card) => (
+            <Card key={card.id} card={card} />
+          ))
+        }
+      </div>
       </div>
     </>
   )

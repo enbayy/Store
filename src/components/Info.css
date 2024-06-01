@@ -1,0 +1,17 @@
+.infoAll{
+    display: flex;
+}
+
+.infoImage{
+    width: 700px;
+    height: 700px;
+    margin-left: -35%;
+}
+
+.infoText{
+    flex-direction: column;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-right: -30%;
+}
