@@ -8,6 +8,7 @@ import About from './Pages/About.jsx'
 import Contact from './Pages/Contact.jsx'
 import NotFoundPage from './Pages/NotFoundPage.jsx'
 import Head from './components/Head.jsx'
+import Sales from './components/Sales.jsx'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
           <Route path='*' element={<NotFoundPage />} />
         </Routes>
         <Head />
+        <Sales/>
       </div>
     </>
   )
