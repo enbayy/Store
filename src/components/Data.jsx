@@ -1,4 +1,4 @@
-import adidas from '../assets/adidas.png'
+import adidas from '../assets/aykb1.png'
 
 export const cards = [
     {
@@ -44,6 +44,13 @@ export const cards = [
         rating: 4,
     },
     {
+        id: 1,
+        title: "xxx",
+        price: "$99.99",
+        image: adidas,
+        rating: 4,
+    },
+    {
         id: 2,
         title: "xxx",
         price: "$99.99",
@@ -62,20 +69,20 @@ export const cards = [
         title: "xxx",
         price: "$99.99",
         image: adidas,
-        rating: 4,
+        rating: 1,
     },
     {
         id: 5,
         title: "xxx",
         price: "$99.99",
         image: adidas,
-        rating: 1,
+        rating: 5,
     },
     {
         id: 6,
         title: "xxx",
         price: "$99.99",
         image: adidas,
-        rating: 5,
-    },
+        rating: 3,
+    }
 ]

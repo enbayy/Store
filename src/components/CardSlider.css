@@ -1,0 +1,57 @@
+.slider-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.7s ease-in-out;
+}
+
+.slide {
+    min-width: 30%;
+    /* Her slaytın genişliğini %25 yapın */
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.card {
+    background: #ddd;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.7s, filter 0.7s;
+}
+
+.card img:hover {
+    transform: rotate(30deg) scale(1.2);
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}

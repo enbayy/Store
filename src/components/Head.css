@@ -38,9 +38,7 @@
 
     overflow: hidden;
     margin-bottom: 20px;
-    /* Videolar arasında boşluk bırak */
     border-radius: 10px;
-    /* Köşeleri yuvarlatmak için */
     transition: transform 0.5s ease-in-out;
 }
 
@@ -94,17 +92,16 @@
 }
 
 .headShoe {
-    transform: rotate(30deg);
     width: 730px;
     height: 730px;
     margin-top: -70px;
     cursor: pointer;
+    transition: transform 0.7s, filter 0.7s;
 }
 
 .headShoe:hover {
-    transform: scale(1.2);
+    transform: rotate(30deg) scale(1.2);
     filter: brightness(1.1);
-    transition: transform 0.7s
 }
 
 .headIcons {

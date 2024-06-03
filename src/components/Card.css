@@ -1,4 +1,4 @@
-.card-main{
+.card-main {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,9 +15,14 @@
     background-color: lightgray;
 }
 
-.image {
+.cardImage {
     width: 320px;
     height: 240px;
+    transition: transform 0.7s, filter 0.7s;
+}
+
+.cardImage:hover {
+    transform: rotate(30deg);
 }
 
 .title {
@@ -33,7 +38,7 @@
     justify-content: center;
 }
 
-.cardPoint{
+.cardPoint {
     display: flex;
     align-items: center;
     justify-content: start;

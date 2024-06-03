@@ -13,6 +13,8 @@ import Info from './components/Info.jsx'
 import { cards } from './components/Data.jsx'
 import Card from './components/Card.jsx'
 import "./components/Card.css";
+import Featured from './components/Featured.jsx'
+import CardSlider from './components/CardSlider.jsx'
 
 function App() {
 
@@ -30,12 +32,14 @@ function App() {
         <Sales />
         <Info />
         <div className='card-main'>
-        {
-          cards?.map((card) => (
-            <Card key={card.id} card={card} />
-          ))
-        }
-      </div>
+          {
+            cards?.map((card) => (
+              <Card key={card.id} card={card} />
+            ))
+          }
+        </div>
+        <Featured />
+        <CardSlider />
       </div>
     </>
   )
