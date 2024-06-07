@@ -15,6 +15,7 @@ import Card from './components/Card.jsx'
 import "./components/Card.css";
 import Featured from './components/Featured.jsx'
 import CardSlider from './components/CardSlider.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
 
@@ -40,6 +41,7 @@ function App() {
         </div>
         <Featured />
         <CardSlider />
+        <Footer />
       </div>
     </>
   )

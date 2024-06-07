@@ -1,0 +1,8 @@
+.main-footer {
+    color: white;
+    background: linear-gradient(90deg, #e31907, #08d665);
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
