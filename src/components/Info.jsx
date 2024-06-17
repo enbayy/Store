@@ -1,6 +1,6 @@
 import React from 'react'
 import './Info.css';
-import aykb from '../assets/aykb1.png';
+import aykb from '../assets/ad13.png';
 
 function Info() {
     return (
@@ -16,19 +16,16 @@ function Info() {
                     HIGHLIGHTS
                 </div>
 
-                <div style={{ fontSize: "70px", fontWeight: "bold" }}>
-                    NIKE AIR WITH
-                </div>
-
-                <div style={{ fontSize: "70px", fontWeight: "bold" }}>
-                    LIMITLESS CHOICES
+                <div style={{ fontSize: "60px", fontWeight: "bold" }}>
+                    ADIDAS TUBULAR <br />
+                    WITH LIMITLESS CHOICES
                 </div>
 
                 <div style={{ fontSize: "25px" }}>
                     Our Purpose is to move the world forward. We take action by building community, protecting our planet and increasing access to sport.
                 </div>
 
-                <div className='container headButton'>
+                <div className='container headButton' style={{marginTop:"30px"}}>
                     <button className='buttonPr'>Explore Product</button>
                 </div>
             </div>

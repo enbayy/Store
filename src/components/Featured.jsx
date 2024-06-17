@@ -1,6 +1,6 @@
 import React from 'react'
 import './Featured.css';
-import aykb from '../assets/aykb2.png';
+import aykb from '../assets/ad14.png';
 
 function Featured() {
     return (
@@ -12,11 +12,8 @@ function Featured() {
                     HIGHLIGHTS
                 </div>
 
-                <div style={{ fontSize: "70px", fontWeight: "bold" }}>
-                    NIKE SNEAKERS AIR
-                </div>
-
-                <div style={{ fontSize: "70px", fontWeight: "bold" }}>
+                <div style={{ fontSize: "65px", fontWeight: "bold" }}>
+                    ADIDAS NMD R1 <br />
                     LANCING SHOES
                 </div>
 

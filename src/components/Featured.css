@@ -1,17 +1,18 @@
 .featuredAll {
     display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 20%;
 }
 
 .featuredImage {
-    width: 700px;
-    height: 700px;
-    margin-left: 40%;
+    height: 500px;
+    margin-left: 35%;
     cursor: pointer;
     transition: transform 0.7s, filter 0.7s;
 }
 
 .featuredImage:hover {
-
     transform: rotate(-30deg) scale(1.2);
 }
 
@@ -19,6 +20,5 @@
     flex-direction: column;
     display: flex;
     align-items: start;
-    justify-content: center;
-    margin-left: -25%;
+    margin-left: -30%;
 }

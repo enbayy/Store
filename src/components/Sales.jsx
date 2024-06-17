@@ -1,7 +1,9 @@
 import React from 'react';
 import { Card, CardContent, CardMedia, Typography, CardActions, Button, Rating } from '@mui/material';
 import './Sales.css';
-import shoe from '../assets/aykb1.png';
+import shoe from '../assets/ad1.png';
+import shoe1 from '../assets/ad2.png';
+import shoe2 from '../assets/ad3.png';
 
 const App = () => {
     return (
@@ -44,7 +46,7 @@ const App = () => {
                         className='shoe'
                         component="img"
                         height="200"
-                        image={shoe}
+                        image={shoe1}
                         alt="Shoe Image"
                     />
                     <CardContent>
@@ -73,7 +75,7 @@ const App = () => {
                         className='shoe'
                         component="img"
                         height="200"
-                        image={shoe}
+                        image={shoe2}
                         alt="Shoe Image"
                     />
                     <CardContent>

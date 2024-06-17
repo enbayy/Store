@@ -11,27 +11,26 @@
 }
 
 .slide {
-    min-width: 30%;
-    /* Her slaytın genişliğini %25 yapın */
+    min-width: 40%;
     box-sizing: border-box;
     padding: 10px;
 }
 
-.card {
+.cardSlide {
     background: #ddd;
     padding: 20px;
     border-radius: 20px;
     text-align: center;
 }
 
-.card img {
+.cardSlide img {
     max-width: 100%;
     border-radius: 5px;
     cursor: pointer;
     transition: transform 0.7s, filter 0.7s;
 }
 
-.card img:hover {
+.cardSlide img:hover {
     transform: rotate(30deg) scale(1.2);
 }
 
