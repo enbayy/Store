@@ -10,6 +10,7 @@
     font-size: 90px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 .headRow {
@@ -17,12 +18,6 @@
     text-align: center;
     justify-content: space-between;
     margin-top: 50px;
-}
-
-.headImage {
-    width: 170px;
-    height: 170px;
-    margin: 20px;
 }
 
 .headImages {
@@ -35,14 +30,10 @@
 }
 
 .video {
-
     overflow: hidden;
     margin-bottom: 20px;
     border-radius: 10px;
     transition: transform 0.5s ease-in-out;
-}
-
-.video {
     display: block;
     width: 100%;
     height: auto;
@@ -52,6 +43,9 @@
 .headMid {
     flex-direction: column;
     margin-left: 50px;
+    display: flex;
+    width: 100%;
+
 }
 
 .headButton {
@@ -82,7 +76,7 @@
 
 .buttonPr:hover {
     background: linear-gradient(90deg, #00d5ff, #af03e3);
-    box-shadow: 0 5px 10px 0 white;
+    box-shadow: 0 5px 10px 0 black;
 }
 
 .buttonPr:active {
@@ -92,11 +86,11 @@
 }
 
 .headShoe {
-    width: 730px;
-    height: 730px;
-    margin-top: -70px;
+    width: 750px;
+    height: 520px;
     cursor: pointer;
     transition: transform 0.7s, filter 0.7s;
+    margin-top: 40px;
 }
 
 .headShoe:hover {
@@ -109,9 +103,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    margin-top: -60px;
 }
 
 .icon {
-    font-size: 40px;
+    font-size: 55px;
+    transition: font-size 0.7s, color 0.7s;
+    color: black;
+}
+
+.icon:hover {
+    color: white;
+    font-size: 70px;
 }

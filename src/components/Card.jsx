@@ -8,7 +8,6 @@ function Card({ card }) {
 
     return (
         <div className='card'>
-            <div className='asd'>
                 <div>
                     <img className='cardImage' src={image} alt={title} />
                 </div>
@@ -29,7 +28,6 @@ function Card({ card }) {
                         Buy Now
                     </Button>
                 </div>
-            </div>
         </div>
     );
 }

@@ -7,11 +7,6 @@ html {
     font-size: 62.5%;
 }
 
-body {
-    font-size: 1.6rem;
-    background: linear-gradient(90deg, #00d5ff, #af03e3);
-}
-
 li {
     list-style: none;
 }

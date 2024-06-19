@@ -1,12 +1,10 @@
 import React from 'react'
 import "./Head.css";
-import adidas from "../assets/adidas.png"
 import aykb from "../assets/aykb1.png"
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
-import { FaFacebookMessenger } from "react-icons/fa";
 import { useRef } from 'react';
 import clip from "../assets/clip.mp4"
 import clip2 from "../assets/clip2.mp4"
@@ -96,14 +94,19 @@ function Head() {
                 </div>
 
                 <div className='container headIcons'>
-                    <FaFacebookSquare className='icon' />
-                    <FaInstagram className='icon' />
-                    <FaTwitter className='icon' />
-                    <FaYoutube className='icon' />
-                    <FaFacebookMessenger className='icon' />
+                    <a href="https://www.facebook.com/adidas/?locale=tr_TR" target="_blank">
+                        <FaFacebookSquare className='icon' />
+                    </a>
+                    <a href="https://www.instagram.com/adidas/" target="_blank">
+                        <FaInstagram className='icon' />
+                    </a>
+                    <a href="https://x.com/adidas" target="_blank">
+                        <FaTwitter className='icon' />
+                    </a>
+                    <a href="https://www.youtube.com/@adidas" target="_blank">
+                        <FaYoutube className='icon' />
+                    </a>
                 </div>
-
-
             </div>
         </div>
     )

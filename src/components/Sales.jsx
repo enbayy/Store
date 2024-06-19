@@ -22,15 +22,15 @@ const App = () => {
                     />
                     <CardContent>
                         <p className='shoeText'>
-                            Shoe Model
+                            Adidas Ultra Boost 1.0
                         </p>
                         <div className='shoePrice'>
                             $99.99
                         </div>
                         <div className="rating-container">
-                            <Rating className='shoeRating' name="read-only" value={4} readOnly />
+                            <Rating className='shoeRating' name="read-only" value={3} readOnly />
                             <div className='shoePoint'>
-                                4.0
+                                3.0
                             </div>
                         </div>
                     </CardContent>
@@ -51,7 +51,7 @@ const App = () => {
                     />
                     <CardContent>
                         <p className='shoeText'>
-                            Shoe Model
+                            Adidas Tubular Shadow
                         </p>
                         <div className='shoePrice'>
                             $99.99
@@ -80,15 +80,15 @@ const App = () => {
                     />
                     <CardContent>
                         <p className='shoeText'>
-                            Shoe Model
+                            Adidas NMD_R1
                         </p>
                         <div className='shoePrice'>
                             $99.99
                         </div>
                         <div className="rating-container">
-                            <Rating className='shoeRating' name="read-only" value={4} readOnly />
+                            <Rating className='shoeRating' name="read-only" value={2} readOnly />
                             <div className='shoePoint'>
-                                4.0
+                                2.0
                             </div>
                         </div>
                     </CardContent>

@@ -1,7 +1,3 @@
-.sales {
-    flex-direction: column;
-}
-
 .salesText {
     font-weight: bold;
     font-size: 50px;
@@ -14,26 +10,26 @@
 }
 
 .custom-card {
-    width: 400px;
-    height: 450px;
-    margin: 20px;
-    box-shadow: 0 8px 10px white !important;
-    transition: transform 0.5s, box-shadow 0.3s;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
+    border: 5px solid transparent;
+    width: 25%;
+    margin: 40px;
+    background-color: rgba(201, 201, 201, 0.7) !important;
+    margin: 20px;
+    box-shadow: 8px 8px 10px rgb(211, 211, 211, 0.7) !important;
+    transition: transform 0.5s, box-shadow 0.3s;
     border-radius: 30px !important;
 }
 
 .shoe {
-    cursor: pointer;
+    transition: transform 0.7s;
 }
 
 .shoe:hover {
+    cursor: pointer;
     transform: rotate(20deg) scale(1.0);
-    filter: brightness(0.9);
-    transition: transform 0.7s
 }
 
 .shoeText {
@@ -44,20 +40,23 @@
 .shoePrice {
     font-weight: bold;
     font-size: 20px;
-    color: gray;
+    color: rgb(93, 93, 93);
+    display: flex;
+    justify-content: center;
 }
 
 .shoeRating {
-    font-size: 3rem !important;
+    font-size: 3.5rem !important;
 }
 
 .shoePoint {
-    font-size: 2rem !important;
+    font-size: 2.5rem !important;
+    font-weight: bold;
 }
 
 .shoeButton {
     font-size: 15px !important;
-    background-color: blue !important;
+    background-color: rgb(238, 44, 212) !important;
     color: white !important;
     border-radius: 10px !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3) !important;
@@ -69,7 +68,7 @@
 
 .shoeButton:hover {
     transform: translateY(-3px) !important;
-    box-shadow: 0 8px 20px black !important;
+    box-shadow: 0 8px 20px pink !important;
 }
 
 .custom-card:hover {
@@ -85,6 +84,7 @@
 .rating-container {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 5px;
     margin-top: 10px;
 }
