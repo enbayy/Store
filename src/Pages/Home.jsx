@@ -9,24 +9,24 @@ import Navbar from "../components/Navbar"
 import Sales from '../components/Sales.jsx'
 
 function Home() {
-    return (
-       <>
-        <Navbar />
-        <Head />
-        <Sales />
-        <Info />
-        <div className='card-main'>
-          {
-            cards?.map((card) => (
-              <Card key={card.id} card={card} />
-            ))
-          }
-        </div>
-        <Featured />
-        <CardSlider />
-        <Footer />
-       </>
-    )
+  return (
+    <>
+      <Navbar />
+      <Head />
+      <Sales />
+      <Info />
+      <div className='card-main'>
+        {
+          cards?.map((card) => (
+            <Card key={card.id} card={card} />
+          ))
+        }
+      </div>
+      <Featured />
+      <CardSlider />
+      <Footer />
+    </>
+  )
 }
 
 export default Home

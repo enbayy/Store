@@ -7,9 +7,9 @@ const CardSlider = () => {
     const cards = [
         { id: 1, title: "Yeezy Boost 750", content: "Adidas Yeezy Boost 750", image: "src/assets/ad5.png" },
         { id: 2, title: "Adidas Tubular", content: "Adidas Tubular Nova Primeknit", image: "src/assets/ad7.png" },
-        { id: 3, title: "NMD_R1", content: "Adidas NMD_R1", image: "src/assets/ad3.png" },
         { id: 4, title: "NMD_R1 Primeknit", content: "Adidas NMD_R1 Primeknit", image: "src/assets/ad4.png" },
         { id: 1, title: "Gazelle 85 Low", content: "ADIDAS GAZELLE 85 LOW", image: "src/assets/ad6.png" },
+        { id: 3, title: "NMD_R1", content: "Adidas NMD_R1", image: "src/assets/ad3.png" },
         { id: 3, title: "ZX Flux", content: "Adidas ZX Flux", image: "src/assets/ad8.png" },
         { id: 4, title: "Yeezy Stan Smith Sneakers", content: "Adidas Yeezy Stan Smith Sneakers", image: "src/assets/ad9.png" },
         { id: 5, title: "X_PLR", content: "Adidas X_PLR", image: "src/assets/ad10.png" },

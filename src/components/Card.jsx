@@ -15,7 +15,7 @@ function Card({ card }) {
                     <h4 className='title'>{title}</h4>
                 </div>
                 <div>
-                    <p className='card-desc'>{price}</p>
+                    <p className='card-price'>{price}</p>
                 </div>
 
                 <div className=' cardPoint'>

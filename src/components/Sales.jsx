@@ -25,7 +25,7 @@ const App = () => {
                             Adidas Ultra Boost 1.0
                         </p>
                         <div className='shoePrice'>
-                            $99.99
+                            $181,23
                         </div>
                         <div className="rating-container">
                             <Rating className='shoeRating' name="read-only" value={3} readOnly />
@@ -54,7 +54,7 @@ const App = () => {
                             Adidas Tubular Shadow
                         </p>
                         <div className='shoePrice'>
-                            $99.99
+                            $79,90
                         </div>
                         <div className="rating-container">
                             <Rating className='shoeRating' name="read-only" value={4} readOnly />
@@ -83,7 +83,7 @@ const App = () => {
                             Adidas NMD_R1
                         </p>
                         <div className='shoePrice'>
-                            $99.99
+                            $141,63
                         </div>
                         <div className="rating-container">
                             <Rating className='shoeRating' name="read-only" value={2} readOnly />

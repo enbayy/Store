@@ -45,7 +45,7 @@
 
 .input-text, .input-mail, .input-number, .textarea {
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 10px;
     box-sizing: border-box;
 }
@@ -61,7 +61,7 @@
 }
 
 .clear-button, .save-button, .send-button {
-    padding: 10px 20px;
+    padding: 10px 30px;
     cursor: pointer;
 }
 

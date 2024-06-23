@@ -5,25 +5,18 @@ import About from './Pages/About.jsx'
 import Contact from './Pages/Contact.jsx'
 import NotFoundPage from './Pages/NotFoundPage.jsx'
 
-
 function App() {
 
   return (
     <>
-          <BrowserRouter>
-           <Routes>
+      <BrowserRouter>
+        <Routes>
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='*' element={<NotFoundPage />} />
-          
           <Route path='/' element={<Home />} />
         </Routes>
-          </BrowserRouter>
-
-       
-       
-     
-     
+      </BrowserRouter>
     </>
   )
 }

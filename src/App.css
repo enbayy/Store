@@ -1,7 +1,6 @@
 body {
     font-size: 1.6rem;
-    background: linear-gradient(90deg, #00d5ff, #af03e3);
+    background: linear-gradient(90deg, rgb(136, 136, 137), rgb(86, 107, 212),rgb(136, 136, 137));
     background-size: cover;
-
     display: flex;
 }

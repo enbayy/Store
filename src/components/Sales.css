@@ -16,15 +16,16 @@
     border: 5px solid transparent;
     width: 25%;
     margin: 40px;
-    background-color: rgba(201, 201, 201, 0.7) !important;
+    background-color: rgba(206, 205, 205, 0.7) !important;
     margin: 20px;
-    box-shadow: 8px 8px 10px rgb(211, 211, 211, 0.7) !important;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.7) !important;
     transition: transform 0.5s, box-shadow 0.3s;
     border-radius: 30px !important;
 }
 
 .shoe {
     transition: transform 0.7s;
+    height: 50%;
 }
 
 .shoe:hover {
@@ -55,11 +56,11 @@
 }
 
 .shoeButton {
-    font-size: 15px !important;
-    background-color: rgb(238, 44, 212) !important;
+    font-size: 18px !important;
+    background:  rgb(119, 136, 225) !important;
+    box-shadow: 0 3px 10px 0 rgb(0, 0, 0) !important;
     color: white !important;
     border-radius: 10px !important;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3) !important;
     border: none;
     padding: 10px 20px !important;
     cursor: pointer !important;
@@ -67,8 +68,8 @@
 }
 
 .shoeButton:hover {
-    transform: translateY(-3px) !important;
-    box-shadow: 0 8px 20px pink !important;
+    background: rgb(45, 67, 192) !important;
+    box-shadow: 0 5px 10px 0 black !important;
 }
 
 .custom-card:hover {

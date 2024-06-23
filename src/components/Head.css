@@ -38,6 +38,7 @@
     width: 100%;
     height: auto;
     transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
+    cursor: pointer;
 }
 
 .headMid {
@@ -45,7 +46,6 @@
     margin-left: 50px;
     display: flex;
     width: 100%;
-
 }
 
 .headButton {
@@ -56,10 +56,10 @@
 }
 
 .buttonPr {
-    background: linear-gradient(90deg, #00d5ff, #af03e3);
-    box-shadow: 0 3px 10px 0 white;
+    background: rgb(207, 205, 205);
+    box-shadow: 0 3px 10px 0 rgb(0, 0, 0);
     border: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     padding: 15px 32px;
     text-align: center;
@@ -69,13 +69,12 @@
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 12px;
-    background: linear-gradient(90deg, #00d5ff, #af03e3);
     transition: all 0.5s ease-in-out;
     z-index: 1;
 }
 
 .buttonPr:hover {
-    background: linear-gradient(90deg, #00d5ff, #af03e3);
+    background: rgb(119, 136, 225);
     box-shadow: 0 5px 10px 0 black;
 }
 
@@ -90,7 +89,7 @@
     height: 520px;
     cursor: pointer;
     transition: transform 0.7s, filter 0.7s;
-    margin-top: 40px;
+    margin-top: 25%;
 }
 
 .headShoe:hover {
