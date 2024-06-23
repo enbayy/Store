@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 
 function Navbar() {
@@ -23,18 +23,18 @@ function Navbar() {
             <ul className={active}>
                 <li className="item">
                     <a href="#" className="link">
-                        <Link className="text" to="/">Anasayfa</Link>
+                        <Link className="text" to="/">Home</Link>
                     </a>
                 </li>
                 <li className="item">
                     <a href="#" className="link">
-                        <Link className="text" to="/about">Hakkında</Link>
+                        <NavLink className="text" to="/about">About</NavLink>
                     </a>
                 </li>
                 <li className="item">
-                    <a href="#" className="link">
-                        <Link className="text" to="/contact">İletişim</Link>
-                    </a>
+                    
+                        <NavLink className="text" to="/contact">Contact</NavLink>
+     
                 </li>
             </ul>
             <div onClick={navToggle} className={icon}>
