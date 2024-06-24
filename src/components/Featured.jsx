@@ -14,11 +14,11 @@ function Featured() {
 
                 <div style={{ fontSize: "65px", fontWeight: "bold" }}>
                     ADIDAS NMD R1 <br />
-                    LANCING SHOES
+                    SHOES
                 </div>
 
                 <div style={{ fontSize: "25px" }}>
-                    The radiance lives on Nike Sneakers Air Lancing Shoes, the basket ball OG that puts a fresh spin on what you know best: durably stitched overlays, clean finishes and the perfect amount of flash to make you shine.
+                    The radiance lives on Adidas NMD R1 Shoes, the basket ball OG that puts a fresh spin on what you know best: durable stitched overlays, clean finished and the perfect amount of flash to make you shine.
                 </div>
 
                 <div className='container featuredButton' style={{ marginTop: "10px" }}>
